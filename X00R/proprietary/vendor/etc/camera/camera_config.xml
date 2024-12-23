@@ -138,7 +138,7 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-  <!--CameraModuleConfig>
+  <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>s5k4h7</SensorName>
     <ActuatorName>cn3937_s5k4h7</ActuatorName>
@@ -162,34 +162,7 @@ LensInfo : Information of the lens present in the module.
       <VerticalViewAngle>50.9</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
-  </CameraModuleConfig> -->
-  <!-- add by yukai start -->
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>s5k4h7</SensorName>
-    <ActuatorName>cn3937</ActuatorName>
-    <FlashName>pmic</FlashName>
-    <EepromName>s5k4h7_gt24c64</EepromName>
-    <ChromatixName>s5k4h7_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.83</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.97</TotalFocusDistance>
-      <HorizontalViewAngle>63.2</HorizontalViewAngle>
-      <VerticalViewAngle>49.0</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
   </CameraModuleConfig>
-  <!-- add by yukai end -->
   <CameraModuleConfig>
     <CameraId>1</CameraId>
     <SensorName>s5k5e8</SensorName>
